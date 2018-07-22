@@ -1,31 +1,71 @@
 
 html {
 	position: relative;
+
 }
 html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
-	background-color: #efefef;
-    background: #efefef url("../images/funky-lines.png");
+	color:white;
+	background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+ h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	color: #4aaaa5;
+	color: #92a8d1;
 }
+
+.namer {
+	color:#92a8d1;
+}
+
+/* .navie {
+	background-color: gray;
+background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+	
+} */
+
 
 #contactHeader {
 	display:inline-block;
 	text-align:center;
 	width:100%;
+	margin-top:5px;
+	margin-bottom:40px;
+	color: #f7786b;
 }
 .links {
 	font-weight: 500;
+	color: #92a8d1;
 }
 
-.footie {
-	display:inline-block;
-	text-align:center;
+.cageHolder {
+	position: relative;
+    text-align: center;
+	color: white;
+	margin:5px;
+}
+
+#portText {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+#cage {
+	height:550%;
+	width: 55%;
+	margin:20px;
 }
 #message {
 	margin: 10px;
@@ -34,12 +74,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #submitButton {
 	margin:10px;
+	color:#f7786b;
 }
 #messageTitle {
 	margin:10px;
+	color:#f7786b;
 }
 a {
-	text-decoration: none;
+	color:#f7786b;
 }
 
 h1 {
@@ -61,7 +103,7 @@ header {
 	background-color: #ffffff;
 }
 
-header .container {
+header {
 	width: 960px;
 	margin: 0 auto;
 	font-weight: 500;
@@ -161,6 +203,7 @@ header .container {
 	font-size: 18px;
 	line-height: 1.5em;
 	margin-bottom: 2em;
+	
 }
 
 /* My pic */
@@ -239,7 +282,20 @@ img.nutella {
 	padding: 1em 1.8em;
 	font-size: 1em;
 }
+.footie {
+	color:#f7786b;
+	margin:40px;
+	display:inline-block;
+	text-align:center;
+	
+}
 
+
+
+.titler {
+	margin-top:20px;
+	color:#f7786b;
+}
 
 /* Footer */
 footer {
@@ -250,8 +306,8 @@ footer {
 	padding: 2.8em;
 	text-align: center;
 	font-size: 0.8em;
-	color: #cccccc;
+	color: #f7786b;;
 	background-color: #666666;
-    border-top: 7px solid #4aaaa5;
+	border-top: 7px solid #4aaaa5;
 }
 
