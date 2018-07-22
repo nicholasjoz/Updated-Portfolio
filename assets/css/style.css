@@ -1,0 +1,257 @@
+
+html {
+	position: relative;
+}
+html, body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-color: #efefef;
+    background: #efefef url("../images/funky-lines.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+#contactHeader {
+	display:inline-block;
+	text-align:center;
+	width:100%;
+}
+.links {
+	font-weight: 500;
+}
+
+.footie {
+	display:inline-block;
+	text-align:center;
+}
+#message {
+	margin: 10px;
+	
+}
+
+#submitButton {
+	margin:10px;
+}
+#messageTitle {
+	margin:10px;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2.2em;
+	display:inline-block;
+	font-weight:600;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+
+/* Header */
+header {
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #cccccc;
+	background-color: #ffffff;
+}
+
+header .container {
+	width: 960px;
+	margin: 0 auto;
+	font-weight: 500;
+}
+
+/* Name */
+.name {
+	width: 50%;
+}
+
+.name, .navigate {
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+/* couldn't get float to work :-( */
+
+.logo {
+	display: inline-block;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 2em;
+	letter-spacing: 0.04em;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 1em;
+	width: auto;
+}
+
+/* Navigation bar/links */
+/* style choice- having 'Contact Nick' link with a margin/space to the right. I like this look more than when the 3 nav bar links are pushed all the way to the right (as is suggested in the example screenshots for the homewwork, but not a required style element) */ 
+.navigate {
+	width: 49%;
+	text-align: right;
+	color: #b1adb3;
+	font-weight: normal;
+}
+
+.navigate ul li {
+	display: inline-block;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+
+.navigate ul li a {
+	color: #b1adb3;
+	text-decoration: none;
+	transition: color .4s;
+}
+
+/* bonus hover functionality, change color for active page, hover page*/
+
+.navigate ul li a:hover {
+	color: #4aaaa5;
+}
+
+.navigate ul li a.active {
+	color: #000000;
+}
+
+.navigate ul li+li {
+	/* Adding divider using jackreichart.com resource (nice looking styling) */
+    border-left: 1px solid #cccccc;
+	border-width: 3px;
+	border-color: #4aaaa5;
+}
+
+
+/* Main  content sections */
+.content {
+	width: 960px;
+	clear: both;
+	margin: 0 auto 8em auto;
+	align-content: center;
+}
+
+.main {
+	display: inline-block;
+	width: 960px;
+	margin: 45px 0;
+	padding: 40px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+.main h1 {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	margin-bottom: 0.7em;
+	border-bottom: 2px solid #dddddd;
+}
+
+.main p {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}
+
+/* My pic */
+img.nutella {
+	float: left;
+	padding: 0 1em 1em 0;
+	width: 200px;
+	height: 200px;
+}
+
+/* Bills easter egg */
+.bold {
+    font-weight: bolder;
+	color: #C8023A;
+    background-color: #00308F;
+}
+
+/* Didnt' end up using in final styling */
+.center {
+    align-content: center;
+}
+
+/* Portfolio Page */
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	width: 400px;
+	height: 400px;
+}
+
+/*bonus hover*/
+
+.portfolio-item:hover {
+	transform: rotate(-5deg) scale(1.05, 1.05);
+}
+
+.item-name {
+	z-index: 400;
+	position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	width: 160px;
+}
+
+/* Contact Page */
+.contact {
+	width: 540px;
+}
+
+.contact label {
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+/* Bills easter egg */
+.egg {
+	color: red; 
+}
+
+/* Contact form styling */
+.contact input, .contact textarea {
+	width: 927px;
+	border: 1px solid #cccccc;
+	margin-bottom: 1.6em;
+	padding: 1em;
+	font-size: .8em;
+}
+.contact input[type="submit"] {
+	width: auto;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	padding: 1em 1.8em;
+	font-size: 1em;
+}
+
+
+/* Footer */
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 2.8em;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+}
+
