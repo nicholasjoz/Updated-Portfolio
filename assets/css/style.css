@@ -200,10 +200,14 @@ header {
 }
 
 .main p {
-	font-size: 18px;
+	font-size: 36pt;
 	line-height: 1.5em;
 	margin-bottom: 2em;
 	
+}
+
+p {
+	font-size:16pt;
 }
 
 /* My pic */
@@ -212,8 +216,12 @@ img.nutella {
 	padding: 0 1em 1em 0;
 	width: 200px;
 	height: 200px;
+	
 }
 
+.footie2 {
+	color:red;
+}
 /* Bills easter egg */
 .bold {
     font-weight: bolder;
@@ -284,7 +292,7 @@ img.nutella {
 }
 .footie {
 	color:#f7786b;
-	margin:40px;
+	margin-top:40px;
 	display:inline-block;
 	text-align:center;
 	
@@ -295,6 +303,7 @@ img.nutella {
 .titler {
 	margin-top:20px;
 	color:#f7786b;
+	text-align:center;
 }
 
 /* Footer */
