@@ -1,10 +1,15 @@
 
 html {
 	position: relative;
+}
 
+.heading {
+	font-family: 'Monoton', cursive;
+	color: #92a8d1;
 }
 html, body {
-	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Averia Serif Libre', cursive;
+	font-size:19px;
 	color:white;
 	background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
@@ -24,6 +29,7 @@ background-size: 20px 20px;
 
 .namer {
 	color:#92a8d1;
+	font-family: 'Monoton', cursive;
 }
 
 /* .navie {
@@ -31,6 +37,8 @@ background-size: 20px 20px;
 background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
 background-size: 50px 50px;
 	
+
+
 } */
 
 
@@ -41,10 +49,12 @@ background-size: 50px 50px;
 	margin-top:5px;
 	margin-bottom:40px;
 	color: #f7786b;
+	font-family: 'Monoton', cursive;
 }
 .links {
 	font-weight: 500;
 	color: #92a8d1;
+	font-family: 'Monoton', cursive;
 }
 
 .cageHolder {
@@ -60,6 +70,7 @@ background-size: 50px 50px;
     left: 50%;
 	transform: translate(-50%, -50%);
 	color:white;
+	font-family: 'Averia Serif Libre', cursive;
 }
 
 #cage {
@@ -72,13 +83,19 @@ background-size: 50px 50px;
 	
 }
 
+.sidebar {
+	font-family: 'Monoton', cursive;
+}
+
 #submitButton {
 	margin:10px;
 	color:#f7786b;
+	font-family: 'Monoton', cursive;
 }
 #messageTitle {
 	margin:10px;
-	color:#f7786b;
+	color: #92a8d1;
+	font-family: 'Averia Serif Libre', cursive;
 }
 a {
 	color:#f7786b;
@@ -203,11 +220,19 @@ header {
 	font-size: 36pt;
 	line-height: 1.5em;
 	margin-bottom: 2em;
+	font-family: 'Righteous', cursive;
+	text-indent: 50px;
 	
+}
+
+.summary {
+	font-family: 'Averia Serif Libre', cursive;
 }
 
 p {
 	font-size:16pt;
+	font-family: 'Averia Serif Libre', cursive;
+	text-indent: 50px;
 }
 
 /* My pic */
@@ -219,9 +244,7 @@ img.nutella {
 	
 }
 
-.footie2 {
-	color:red;
-}
+
 /* Bills easter egg */
 .bold {
     font-weight: bolder;
@@ -240,6 +263,7 @@ img.nutella {
 	position: relative;
 	width: 400px;
 	height: 400px;
+	
 }
 
 /*bonus hover*/
@@ -295,6 +319,7 @@ img.nutella {
 	margin-top:40px;
 	display:inline-block;
 	text-align:center;
+	font-family: 'Monoton', cursive;
 	
 }
 
@@ -304,6 +329,7 @@ img.nutella {
 	margin-top:20px;
 	color:#f7786b;
 	text-align:center;
+	font-family: 'Monoton', cursive;
 }
 
 /* Footer */
